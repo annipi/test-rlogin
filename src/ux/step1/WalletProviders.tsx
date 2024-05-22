@@ -82,7 +82,7 @@ export const WalletProviders = ({ userProviders, connectToWallet, changeLanguage
       <ProviderRow className={PROVIDERS_INJECTED}>
         <Provider userProvider={providersByName[providers.METAMASK.name] || providers.METAMASK} handleConnect={handleConnect} hideIfDisabled={false} />
         <Provider userProvider={providersByName[providers.NIFTY.name] || providers.NIFTY} handleConnect={handleConnect} hideIfDisabled={true} />
-        <Provider userProvider={providersByName[providers.LIQUALITY.name] || providers.LIQUALITY} handleConnect={handleConnect} hideIfDisabled={false} />
+        <Provider userProvider={providersByName[providers.LIQUALITY.name] || providers.LIQUALITY} handleConnect={handleConnect} hideIfDisabled={true} />
         <Provider userProvider={providersByName[TALLYWALLET.name] || TALLYWALLET} handleConnect={handleConnect} hideIfDisabled={true} />
         <Provider userProvider={providersByName[BLOCKWALLET.name] || BLOCKWALLET} handleConnect={handleConnect} hideIfDisabled={true} />
         <Provider userProvider={providersByName[ENKRYPTWALLET.name] || ENKRYPTWALLET} handleConnect={handleConnect} hideIfDisabled={true} />
