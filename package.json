@@ -1,5 +1,5 @@
 {
-  "name": "rtest",
+  "name": "rannilucioxdtest",
   "version": "4.0.0",
   "description": "Login tool for RSK",
   "main": "./dist/index.js",
