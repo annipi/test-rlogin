@@ -1,5 +1,5 @@
 {
-  "name": "test/rlogin",
+  "name": "testRlogin",
   "version": "0.0.1",
   "description": "Login tool for RSK",
   "main": "./dist/index.js",
